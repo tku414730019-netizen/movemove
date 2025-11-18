@@ -134,7 +134,7 @@ class Character {
     pop();
 
     if (this === itPlayer && this.alive) {
-      image(fireIcon, this.x - 15, this.y - 60, 40, 40);
+      image(fireIcon, this.x - 15, this.y - 80, 40, 40);
     }
   }
 }
